@@ -13,6 +13,7 @@ meta-*/
 !meta-openembedded
 !meta-qt5
 !meta-tizen*
+!meta-openembedded/*
 hob-image-*.bb
 *.swp
 *.orig
