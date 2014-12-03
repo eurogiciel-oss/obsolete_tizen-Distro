@@ -555,7 +555,7 @@ def check_sanity_version_change(status, d):
         status.addresult('Your python is not a full install. Please install the module xml.parsers.expat (python-xml on openSUSE and SUSE Linux).\n')
     import stat
 
-    status.addresult(check_make_version(d))
+    #status.addresult(check_make_version(d))
     status.addresult(check_tar_version(d))
     status.addresult(check_git_version(d))
     status.addresult(check_perl_modules(d))
